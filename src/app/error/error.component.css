@@ -1,0 +1,10 @@
+.errorPage {
+    width: 100%;
+    text-align: center;
+}
+
+.error404 {
+    font-size: 160px;
+    margin:0;
+    margin-top:100px;
+}

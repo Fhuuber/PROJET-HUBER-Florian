@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  backendProduct: "https://projet-huber-florian.herokuapp.com/api/"
 };

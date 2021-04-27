@@ -1,0 +1,17 @@
+.field {
+    color: black !important;
+    height: 15px;
+    width: 20%;
+    border-radius: 6px;
+    padding: 5px;
+    border: 1px solid #ced4da;
+    margin-bottom: 5px;
+}
+
+.error {
+    color: red;
+}
+
+form {
+    margin: auto;
+}

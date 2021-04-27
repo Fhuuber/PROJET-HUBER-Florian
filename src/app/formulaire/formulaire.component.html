@@ -1,0 +1,46 @@
+<h1>Formulaire d'inscription</h1>
+
+<form name="form" [hidden]="isFormValid">
+    <div>
+        <input [(ngModel)]="lastname" name="lastname" placeholder="Nom" class="field">
+    </div>
+    <div>
+        <input [(ngModel)]="firstname" name="firstname" placeholder="Prénom" class="field">
+    </div>
+    <div>
+        <input [(ngModel)]="address" name="address" placeholder="Adresse" class="field">
+    </div>
+    <div>
+        <input [(ngModel)]="zipCode" name="zipCode" placeholder="Code postal" class="field">
+    </div>
+    <div>
+        <input [(ngModel)]="city" name="city" placeholder="Ville" class="field">
+    </div>
+    <div>
+        <input [(ngModel)]="phoneNumber" name="phoneNumber" placeholder="Numéro de téléphone" class="field">
+    </div>
+    <div>
+        <input [(ngModel)]="email" name="email" placeholder="Adresse mail" class="field">
+    </div>
+    <div>
+        <input [(ngModel)]="civility" name="civility" placeholder="Civilité" class="field">
+    </div>
+    <div>
+        <input [(ngModel)]="password" type="password" name="password" placeholder="Mot de passe" class="field">
+    </div>
+    <div>
+        <input [(ngModel)]="confirmPassword" type="password" name="confirmPassword" placeholder="Confirmation du mot de passe" class="field">
+    </div>
+    <div>
+        <input [(ngModel)]="login" name="login" placeholder="Login" class="field">
+    </div>
+    <div>
+        <input [(ngModel)]="country" name="country" placeholder="Pays" class="field">
+    </div>
+    <div class="error">
+        {{message}}
+    </div>
+    <div>
+        <input type="submit" value="Envoyer" (click)="validate()">
+    </div>
+</form>

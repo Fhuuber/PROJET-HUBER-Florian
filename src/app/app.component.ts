@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'TP-Final-HUBER-Florian';
+  title = 'TP04-HUBER-Florian';
 }

@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'TP-Final-HUBER-Florian'`, () => {
+  it(`should have as title 'TP04-HUBER-Florian'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('TP-Final-HUBER-Florian');
+    expect(app.title).toEqual('TP04-HUBER-Florian');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('TP-Final-HUBER-Florian app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('TP04-HUBER-Florian app is running!');
   });
 });
